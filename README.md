@@ -111,8 +111,7 @@ for positive L. In the equation, the factor in the sum is the probability that a
 <img src="https://latex.codecogs.com/gif.latex?p_L(x)=\sum_{n=1}^xp_N(n)\cdot&space;Pr(S_1&plus;S_2&plus;\ldots&plus;S_n=x)" title="eq2" />
 </p>
 
-A special value of aggregate losses with nonzero probability is L=0, which has <img src="
-https://latex.codecogs.com/gif.latex?p_L(0)&space;=&space;p_N(0)" title="p_L(0)=p_N(0)" />.
+A special value of aggregate losses with nonzero probability is L=0, which has <img src="https://latex.codecogs.com/gif.latex?p_n" title="pL0" />.
 
 
 [Back to Overview](#overview)
