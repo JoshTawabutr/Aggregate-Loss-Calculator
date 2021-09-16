@@ -99,7 +99,7 @@ This completes the computation of aggregate losses distribution based on the giv
 ___
 ## Underlying Mathematics
 
-Let $p_n$ be the probability function of the frequency where $n\geq 0$.
+Let <img src="https://latex.codecogs.com/gif.latex?p_n" title="p_n" /> be the probability function of the frequency where <img src="https://latex.codecogs.com/gif.latex?n\geq&space;0" title="n\geq0" />, and let <img src="https://latex.codecogs.com/gif.latex?f_S" title="f_S" /> be the probability function of the severity where <img src="https://latex.codecogs.com/gif.latex?S>0" title="S>0" />. Note that `S` is nonzero because we count the frequency in the per-payment fashion, that is, a loss below deductible does not count towards the frequency.
 
 
 [Back to Overview](#overview)
@@ -112,14 +112,5 @@ This project is developed by Yossathorn (Josh) Tawabutr. For more information, p
 
 
 
-Computation <br>
-Can click the form on aggregate losses sheet (Show the sheet and then the launched form) <br>
-Can choose from 3 output formats: explain <br>
-(Show overwriting warning box) <br>
-The program will check if the given frequency and severity prob fns each sums to one. (Show such the warning box) <br>
-(Show success box) <br>
-(Show finished sheet)
 
-Some brief conclusion
 
-Remark about project creator
