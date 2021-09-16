@@ -112,7 +112,7 @@ for positive L. In the equation, the factor in the sum is the probability that a
 <img src="https://latex.codecogs.com/gif.latex?Pr(S_1&plus;S_2&plus;\ldots&plus;S_n=x)\equiv&space;p^{(n)}_S(x)=\sum_{y=1}^{x-1}p_S(y)\;p_S^{(n-1)}(x-y)" title="eq2" />
 </p>
 
-with <img src="https://latex.codecogs.com/gif.latex?p_S^{(1)}(s)=p_S(s)" title="p1p" />. Finally, a special value of aggregate losses with nonzero probability is L=0, which has <img src="https://latex.codecogs.com/gif.latex?p_L(0)=p_N(0)" title="pL0" />. This provides the theoretical basis behind the computation performed in this program.
+with <img src="https://latex.codecogs.com/gif.latex?p_S^{(1)}(s)=p_S(s)" title="p1p" />. Finally, a special value of aggregate losses with nonzero probability is <img src="https://latex.codecogs.com/gif.latex?L=0" title="L=0" />, which has <img src="https://latex.codecogs.com/gif.latex?p_L(0)=p_N(0)" title="pL0" />. This provides the theoretical basis behind the computation performed in this program.
 
 
 
