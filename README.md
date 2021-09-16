@@ -112,7 +112,7 @@ for positive L. In the equation, the factor in the sum is the probability that a
 </p>
 
 A special value of aggregate losses with nonzero probability is L=0, which has <img src="
-https://latex.codecogs.com/gif.latex?p_L(0)=p_N(0)" title="p_L(0)=p_N(0)" />.
+https://latex.codecogs.com/gif.latex?p_L(0)&space;=&space;p_N(0)" title="p_L(0)=p_N(0)" />.
 
 
 [Back to Overview](#overview)
