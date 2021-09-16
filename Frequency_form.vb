@@ -43,8 +43,3 @@ Private Sub Frequency_exit_Click()
 Unload Frequency_form
 
 End Sub
-
-
-Private Sub UserForm_Click()
-
-End Sub
