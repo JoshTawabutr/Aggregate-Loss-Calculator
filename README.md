@@ -99,7 +99,7 @@ This completes the computation of aggregate losses distribution based on the giv
 ___
 ## Underlying Mathematics
 
-Let <img src="https://latex.codecogs.com/gif.latex?p_n" title="p_N(n)" /> be the probability function of the frequency where <img src="https://latex.codecogs.com/gif.latex?n\geq&space;0" title="n\geq0" />, and let <img src="https://latex.codecogs.com/gif.latex?p_S" title="p_S(s)" /> be the probability function of the severity where <img src="https://latex.codecogs.com/gif.latex?s>0" title="s>0" />. Note that S is nonzero because we count the frequency in the per-payment fashion, that is, a loss below deductible does not count towards the frequency. Since the aggregate losses, L, is the product of frequency and severity, its probability function follows from the equation
+Let <img src="https://latex.codecogs.com/gif.latex?p_N" title="p_N(n)" /> be the probability function of the frequency where <img src="https://latex.codecogs.com/gif.latex?n\geq&space;0" title="n\geq0" />, and let <img src="https://latex.codecogs.com/gif.latex?p_S" title="p_S(s)" /> be the probability function of the severity where <img src="https://latex.codecogs.com/gif.latex?s>0" title="s>0" />. Note that S is nonzero because we count the frequency in the per-payment fashion, that is, a loss below deductible does not count towards the frequency. Since the aggregate losses, L, is the product of frequency and severity, its probability function follows from the equation
 
 <p align="center">
 <img src="https://latex.codecogs.com/gif.latex?p_L(x)=\sum_{n=1}^xp_N(n)\cdot&space;Pr(S_1&plus;S_2&plus;\ldots&plus;S_n=x)" title="eq1" />
@@ -111,7 +111,7 @@ for positive L. In the equation, the factor in the sum is the probability that a
 <img src="https://latex.codecogs.com/gif.latex?p_L(x)=\sum_{n=1}^xp_N(n)\cdot&space;Pr(S_1&plus;S_2&plus;\ldots&plus;S_n=x)" title="eq2" />
 </p>
 
-A special value of aggregate losses with nonzero probability is L=0, which has <img src="https://latex.codecogs.com/gif.latex?p_n" title="pL0" />.
+A special value of aggregate losses with nonzero probability is L=0, which has <img src="https://latex.codecogs.com/gif.latex?p_L(0)=p_N(0)" title="pL0" />.
 
 
 [Back to Overview](#overview)
