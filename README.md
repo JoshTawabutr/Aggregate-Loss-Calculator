@@ -65,14 +65,41 @@ Alternative ways the user can input the frequency and severity distributions inc
 ___
 ## Computation and Output
 
-Blah
+Once all the inputs are correctly given, the user can start the aggregate losses computation from any of the three worksheets by clicking the "Compute aggregate losses distribution" button, which launches the form displayed below.
+
+<p align="center">
+<img src = "ComputeForm_Blank.png" width = "500"></img>
+</p>
+
+As the form suggests, there are three options the user can choose for the output to be displayed. The first displays all values and probabilities of aggregate losses with nonzero probability. The second option does not display the rows with large aggregate losses whose values are greater than the specified value, i.e. the distribution tail. Finally, the third option only displays the specific aggregate losses value given by the user and its probability. 
+
+Before executing the actual computation, the program checks once more if the input frequency and severity distributions are valid, i.e. all probabilities sum to one, with each being between zero and one. For example, if one of the given probability functions do not sum to one, the following warning will be displayed.
+
+<p align="center">
+<img src = "ComputeForm_Warning1.png" width = "500"></img>
+</p>
+
+If the given distributions are valid, then the program proceeds to compute the aggregate losses distribution. Before the results are displayed, if the Aggregate Losses worksheet is not blank, e.g. filled with a previous result, the following warning box will be displayed.
+
+<p align="center">
+<img src = "ComputeForm_Warning2.png" width = "500"></img>
+</p>
+
+Once the user clicks OK, the results will be automatically displayed as follows.
+
+<p align="center">
+<img src = "AggLoss_Filled.png" width = "450"></img>      
+<img src = "AggLoss_Message.png" width = "450"></img>
+</p>
+
+This completes the computation of aggregate losses distribution based on the given discrete frequency and severity distributions.
 
 
 [Back to Overview](#overview)
 ___
 ## Underlying Mathematics
 
-Blah
+Let $p_n$ be the probability function of the frequency where $n\geq 0$.
 
 
 [Back to Overview](#overview)
@@ -84,18 +111,6 @@ This project is developed by Yossathorn (Josh) Tawabutr. For more information, p
 
 
 
-
-Personal project <br>
-Overview
-
-Motivation -- importance of aggregate loss model
-
-Input <br>
-Can click and use the form (show frequency sheet and its input form when launched) <br>
-Check for positive input (show screaming box) <br>
-Check that prob sum does not exceed 1 (show screaming box) <br>
-Alternatively, can copy and paste from external worksheet (show pasted numbers) <br>
-Same for severity dist (show severity sheet) <br>
 
 Computation <br>
 Can click the form on aggregate losses sheet (Show the sheet and then the launched form) <br>
