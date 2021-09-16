@@ -23,7 +23,9 @@ This is where the project comes in. This project provides a Visual Basic code th
 ___
 ## Inputs
 
-Blah
+<p align="center">
+<img src = "Freq_BlankSheet.png" width="600" height="375"></img>
+</p>
 
 
 [Back to Overview](#overview)
