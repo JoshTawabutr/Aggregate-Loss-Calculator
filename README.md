@@ -25,13 +25,13 @@ ___
 
 The Excel file contains three worksheets: Frequency, Severity and Aggregate Losses. As the names suggest, each sheet holds the table representing the discrete probability function of the corresponding quantity. For instance, the original Frequency worksheet is displayed below.
 <p align="center">
-<img src = "Freq_BlankSheet.png" width = "300"></img>
+<img src = "Freq_BlankSheet.png" width = "350"></img>
 </p>
 Besides the table mentioned above, the worksheet has two buttons. The top button launches a form that allows the user to add rows to the table, while the bottom button launches a form that allows the user to execute aggregate losses computation. The Aggregate Losses worksheet only has the latter button. 
 
 Once the user clicks on the "Input frequency probability function" button, the input form shown below will be launched. 
 <p align="center">
-<img src = "Freq_InputForm.png" width = "300"></img>
+<img src = "Freq_InputForm.png" width = "400"></img>
 </p>
 The form allows the user to input the frequency value and its corresponding probability, one pair at a time. The form also controls for the proper value of probability input. For example, if a user inputs a negative probability by mistake, the following warning box will be displayed.
 <p align="center">
