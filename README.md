@@ -25,7 +25,7 @@ ___
 
 The Excel file contains three worksheets: Frequency, Severity and Aggregate Losses. As the names suggest, each sheet holds the table representing the discrete probability function of the corresponding quantity. For instance, the original Frequency worksheet is displayed below.
 <p align="center">
-<img src = "Freq_BlankSheet.png" width = "350"></img>
+<img src = "Freq_BlankSheet.png" width = "500"></img>
 </p>
 Besides the table mentioned above, the worksheet has two buttons. The top button launches a form that allows the user to add rows to the table, while the bottom button launches a form that allows the user to execute aggregate losses computation. The Aggregate Losses worksheet only has the latter button. 
 
