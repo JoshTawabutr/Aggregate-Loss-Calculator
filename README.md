@@ -108,10 +108,10 @@ Let <img src="https://latex.codecogs.com/gif.latex?p_N" title="p_N(n)" /> be the
 for positive L. In the equation, the factor in the sum is the probability that all severities sum to the aggregate losses, L. Assuming that losses are independent and identically distributed, we can write the probability inductively as follows.
 
 <p align="center">
-<img src="https://latex.codecogs.com/gif.latex?p_L(x)=\sum_{n=1}^xp_N(n)\cdot&space;Pr(S_1&plus;S_2&plus;\ldots&plus;S_n=x)" title="eq2" />
+<img src="https://latex.codecogs.com/gif.latex?Pr(S_1&plus;S_2&plus;\ldots&plus;S_n=x)\equiv&space;p^{(n)}_S(x)=\sum_{y=1}^{x-1}p_S(y)\;p_S^{(n-1)}(x-y)" title="eq2" />
 </p>
 
-A special value of aggregate losses with nonzero probability is L=0, which has <img src="https://latex.codecogs.com/gif.latex?p_L(0)=p_N(0)" title="pL0" />.
+with <img src="https://latex.codecogs.com/gif.latex?p_S^{(1)}(x)=p_S(x)" title="p1p" />. Finally, a special value of aggregate losses with nonzero probability is L=0, which has <img src="https://latex.codecogs.com/gif.latex?p_L(0)=p_N(0)" title="pL0" />. This provides the theoretical basis behind the computation performed in this program.
 
 
 [Back to Overview](#overview)
