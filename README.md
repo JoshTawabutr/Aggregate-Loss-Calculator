@@ -27,8 +27,8 @@ The Excel file contains three worksheets: Frequency, Severity and Aggregate Loss
 <p align="center">
 <img src = "Freq_BlankSheet.png" width = "500"></img>
 </p>
-Besides the table mentioned above, the worksheet has two buttons. The top button launches a form that allows the user to add rows to the table, while the bottom button launches a form that allows the user to execute aggregate losses computation. The Aggregate Losses worksheet only has the latter button. <br>
-
+Besides the table mentioned above, the worksheet has two buttons. The top button launches a form that allows the user to add rows to the table, while the bottom button launches a form that allows the user to execute aggregate losses computation. The Aggregate Losses worksheet only has the latter button. 
+<br>
 Once the user clicks on the "Input frequency probability function" button, the input form shown below will be launched. 
 <p align="center">
 <img src = "Freq_InputForm.png" width = "500"></img>
