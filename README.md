@@ -24,7 +24,7 @@ ___
 ## Inputs
 
 <p align="center">
-<img src = "Freq_BlankSheet.png" width="600" height="375"></img>
+<img src = "Freq_BlankSheet.png"></img>
 </p>
 
 
