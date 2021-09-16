@@ -33,18 +33,18 @@ Besides the table mentioned above, the worksheet has two buttons. The top button
 <p align="center">
 <img src = "Freq_InputForm.png" width = "500"></img>
 </p>
-The form allows the user to input the frequency value and its corresponding probability, one pair at a time. The form also controls for the proper value of probability input. For example, if a user inputs a negative probability by mistake, the following warning box will be displayed. <br>
-<p align="center">
+The form allows the user to input the frequency value and its corresponding probability, one pair at a time. The form also controls for the proper value of probability input. For example, if a user inputs a negative probability by mistake, the following warning box will be displayed. 
+<br><p align="center">
 <img src = "Freq_InputFormFilled1.png" width = "500"></img>      
 <img src = "Freq_InputWarning1.png" width = "500"></img>
 </p>
-Furthermore, if the input probability would make the total probability sum to a number above one, the program will display the following warning box. <br>
-<p align="center">
+Furthermore, if the input probability would make the total probability sum to a number above one, the program will display the following warning box. 
+<br><p align="center">
 <img src = "Freq_InputFormFilled2.png" width = "500"></img>      
 <img src = "Freq_InputWarning2.png" width = "500"></img>
 </p>
-Once the whole frequency distribution is given, the user proceeds to do the same with the severity distribution. This is done in the Severity worksheet shown below, together with the severity input form. <br>
-<p align="center">
+Once the whole frequency distribution is given, the user proceeds to do the same with the severity distribution. This is done in the Severity worksheet shown below, together with the severity input form. 
+<br><p align="center">
 <img src = "Sev_BlankSheet.png" width = "500"></img>      
 <img src = "Sev_InputForm.png" width = "500"></img>
 </p>
