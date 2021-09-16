@@ -95,6 +95,7 @@ Once the user clicks OK, the results will be automatically displayed as follows.
 This completes the computation of aggregate losses distribution based on the given discrete frequency and severity distributions.
 
 
+
 [Back to Overview](#overview)
 ___
 ## Underlying Mathematics
