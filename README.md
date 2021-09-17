@@ -1,6 +1,6 @@
 # Aggregate Loss Calculator with VBA
 
-This repository contains Visual Basic code that computes the discrete aggregate losses distribution from the inputs of discretized frequency and severity distributions. The user is recommended to run the program on Microsoft Excel. 
+This repository contains Visual Basic code that computes the discrete aggregate losses distribution from the inputs of discretized frequency and severity distributions. The user is recommended to run the program on Microsoft Excel, or simply download the Excel file "Aggregate_Loss_Project.xlsm" provided in the repository, which already includes every feature.
 
 ___
 ## Overview
